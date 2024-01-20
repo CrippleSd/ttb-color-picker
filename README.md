@@ -6,9 +6,9 @@ A list of material design colors dialog for android
 new ColorPickerDialog(this)
   .setTitle("Select A Text Color")
   .setOnColorSelectListener(new OnColorSelectedListener(){
-     @Override
-     public void onColorSelected(int color, String hexColor, int[] rgb){
-      text.setTextColor(color);
-}
+      @Override
+      public void onColorSelected(int color, String hexColor, int[] rgb){
+         text.setTextColor(color);
+    }
 }).show();
 ```
